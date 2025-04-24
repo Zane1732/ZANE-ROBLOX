@@ -8,7 +8,7 @@ app = Flask(__name__,
             template_folder='.')
 
 # Gemini API key
-GEMINI_API_KEY = 'AIzaSyALRZWP11fcLY5HVSGHJWlAG_asSPJdKAA'
+
 
 @app.route('/')
 def home():
