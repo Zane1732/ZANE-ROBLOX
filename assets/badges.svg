@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Badge Circle Background -->
+  <circle cx="50" cy="50" r="45" fill="#00A2FF" />
+  <circle cx="50" cy="50" r="40" fill="#FFFFFF" />
+  
+  <!-- Roblox Badge Icon - Simplified Star -->
+  <path d="M50 15 L61 40 L88 40 L67 55 L75 80 L50 65 L25 80 L33 55 L12 40 L39 40 Z" fill="#FFC000" />
+  
+  <!-- Inner Circle -->
+  <circle cx="50" cy="50" r="12" fill="#0073E6" />
+  
+  <!-- Badge Detail -->
+  <circle cx="50" cy="50" r="8" fill="#FFFFFF" />
+</svg>

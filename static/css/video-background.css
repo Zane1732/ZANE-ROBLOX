@@ -1,0 +1,86 @@
+/* Video Background Styles */
+body {
+    background-color: transparent !important;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+/* Video controls styling */
+.video-control, .audio-control {
+    position: fixed;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.video-control {
+    right: 70px;
+}
+
+.audio-control {
+    right: 20px;
+}
+
+.video-control:hover, .audio-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fallback-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(45deg, #232527, #000000);
+    z-index: -11;
+}
+
+/* Make profile containers more transparent to see video */
+.profile-header-section,
+.tabs-container,
+.tab-content,
+.about-section,
+.profile-container,
+.nav-container {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(2px);
+}
+
+.stat-box {
+    background-color: rgba(20, 20, 20, 0.2) !important;
+}
+
+/* Override any black backgrounds */
+html, body {
+    background: transparent !important;
+}

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#000" />
+  
+  <!-- Network nodes and connections -->
+  <g filter="url(#glow)">
+    <!-- Randomly placed nodes and connecting lines -->
+    <!-- Points -->
+    <circle cx="100" cy="100" r="2" fill="#8A2BE2" />
+    <circle cx="300" cy="150" r="2" fill="#1E90FF" />
+    <circle cx="500" cy="200" r="2" fill="#8A2BE2" />
+    <circle cx="700" cy="150" r="2" fill="#1E90FF" />
+    <circle cx="900" cy="100" r="2" fill="#8A2BE2" />
+    <circle cx="1100" cy="150" r="2" fill="#1E90FF" />
+    
+    <circle cx="200" cy="300" r="2" fill="#8A2BE2" />
+    <circle cx="400" cy="350" r="2" fill="#1E90FF" />
+    <circle cx="600" cy="300" r="2" fill="#8A2BE2" />
+    <circle cx="800" cy="350" r="2" fill="#1E90FF" />
+    <circle cx="1000" cy="300" r="2" fill="#8A2BE2" />
+    
+    <circle cx="100" cy="500" r="2" fill="#1E90FF" />
+    <circle cx="300" cy="450" r="2" fill="#8A2BE2" />
+    <circle cx="500" cy="500" r="2" fill="#1E90FF" />
+    <circle cx="700" cy="450" r="2" fill="#8A2BE2" />
+    <circle cx="900" cy="500" r="2" fill="#1E90FF" />
+    <circle cx="1100" cy="450" r="2" fill="#8A2BE2" />
+    
+    <circle cx="200" cy="650" r="2" fill="#1E90FF" />
+    <circle cx="400" cy="600" r="2" fill="#8A2BE2" />
+    <circle cx="600" cy="650" r="2" fill="#1E90FF" />
+    <circle cx="800" cy="600" r="2" fill="#8A2BE2" />
+    <circle cx="1000" cy="650" r="2" fill="#1E90FF" />
+    
+    <circle cx="150" cy="750" r="2" fill="#8A2BE2" />
+    <circle cx="350" cy="700" r="2" fill="#1E90FF" />
+    <circle cx="550" cy="750" r="2" fill="#8A2BE2" />
+    <circle cx="750" cy="700" r="2" fill="#1E90FF" />
+    <circle cx="950" cy="750" r="2" fill="#8A2BE2" />
+    <circle cx="1150" cy="700" r="2" fill="#1E90FF" />
+    
+    <!-- Connections -->
+    <line x1="100" y1="100" x2="300" y2="150" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="300" y1="150" x2="500" y2="200" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="500" y1="200" x2="700" y2="150" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="700" y1="150" x2="900" y2="100" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="900" y1="100" x2="1100" y2="150" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    
+    <line x1="200" y1="300" x2="400" y2="350" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="400" y1="350" x2="600" y2="300" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="600" y1="300" x2="800" y2="350" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="800" y1="350" x2="1000" y2="300" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    
+    <line x1="100" y1="500" x2="300" y2="450" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="300" y1="450" x2="500" y2="500" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="500" y1="500" x2="700" y2="450" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="700" y1="450" x2="900" y2="500" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="900" y1="500" x2="1100" y2="450" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    
+    <line x1="200" y1="650" x2="400" y2="600" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="400" y1="600" x2="600" y2="650" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="600" y1="650" x2="800" y2="600" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="800" y1="600" x2="1000" y2="650" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    
+    <line x1="150" y1="750" x2="350" y2="700" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="350" y1="700" x2="550" y2="750" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="550" y1="750" x2="750" y2="700" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="750" y1="700" x2="950" y2="750" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="950" y1="750" x2="1150" y2="700" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    
+    <!-- Cross connections -->
+    <line x1="100" y1="100" x2="200" y2="300" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="300" y1="150" x2="400" y2="350" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="500" y1="200" x2="300" y2="450" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="700" y1="150" x2="500" y2="500" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="900" y1="100" x2="700" y2="450" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="1100" y1="150" x2="900" y2="500" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    
+    <line x1="200" y1="300" x2="100" y2="500" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="400" y1="350" x2="200" y2="650" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="600" y1="300" x2="400" y2="600" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="800" y1="350" x2="600" y2="650" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="1000" y1="300" x2="800" y2="600" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    
+    <line x1="300" y1="450" x2="150" y2="750" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="500" y1="500" x2="350" y2="700" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="700" y1="450" x2="550" y2="750" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+    <line x1="900" y1="500" x2="750" y2="700" stroke="#8A2BE2" stroke-width="0.5" opacity="0.3" />
+    <line x1="1100" y1="450" x2="950" y2="750" stroke="#1E90FF" stroke-width="0.5" opacity="0.3" />
+  </g>
+</svg>
